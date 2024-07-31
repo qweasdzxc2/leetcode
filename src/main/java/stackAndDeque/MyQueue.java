@@ -4,6 +4,8 @@ import java.util.Stack;
 
 /**
  * 使用双栈模拟队列
+ * 只能 使用标准的栈操作 ——
+ * 也就是只有 push to top, peek/pop from top, size, 和 is empty 操作是合法的。
  */
 public class MyQueue {
     Stack<Integer> stackIn;//输入队列
