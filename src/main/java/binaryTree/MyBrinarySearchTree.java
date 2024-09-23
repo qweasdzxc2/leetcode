@@ -36,6 +36,7 @@ public class MyBrinarySearchTree {
         }
 
         //根据值的大小判断需要插入左子树还是右子树
+        //逐层判断是否与当前根节点的值大小关系
         if(val < root.value){
             root.leftChild = insertRec(root.leftChild, val);
         }else{
